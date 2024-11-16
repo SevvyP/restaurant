@@ -1,0 +1,38 @@
+nav {
+  padding-top: 1rem;
+  padding-bottom: 0;
+  display: flex;
+  background-color: lightslategray;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav button {
+  height: 3rem;
+  width: 6rem;
+}
+
+nav button.active {
+  background-color: lightblue;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  max-width: 800px;
+  min-height: 1000px;
+  margin: 0 auto;
+  background-color: lightblue;
+  gap: 40px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
